@@ -1,3 +1,4 @@
+<?php require_once'../resources/config.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,11 +36,11 @@
                 <form method="POST">
                   <div class="form-group">
                     <label for="Username">Enter Username <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control" placeholder="Username" required="">
+                    <input type="text" class="form-control" name="username" placeholder="Username" required="">
                   </div>
                   <div class="form-group">
-                    <label for="Username">Enter Password <span class="text-danger">*</span></label>
-                    <input type="password" class="form-control" placeholder="**********" required="">
+                    <label for="Password">Enter Password <span class="text-danger">*</span></label>
+                    <input type="password" id="Password" name="password" class="form-control" placeholder="**********" required="">
                   </div>
                   <div class="form-group text-center">
                     <button class="btn btn-success w-100">Login</button>
