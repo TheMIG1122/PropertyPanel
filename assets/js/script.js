@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#add-property-trigger").click(function(){
+        $("#all-properties").hide();
+        $("#add-property").fadeIn();
+    });
+    $("#show-properties-div").click(function(){
+        $("#add-property").hide();
+        $("#all-properties").fadeIn();
+    });
+});

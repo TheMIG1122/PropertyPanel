@@ -1,4 +1,4 @@
-<?php require_once'../resources/config.php';?>
+<?php require_once'../resources/config.php'; admin_login();validate_login(1); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,7 +43,7 @@
                     <input type="password" id="Password" name="password" class="form-control" placeholder="**********" required="">
                   </div>
                   <div class="form-group text-center">
-                    <button class="btn btn-success w-100">Login</button>
+                    <button class="btn btn-success w-100" type="submit" name="login">Login</button>
                   </div>
                 </form>
               </div>

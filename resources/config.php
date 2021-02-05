@@ -28,6 +28,6 @@ defined("SMTPPassword") ? null : define("SMTPPassword","");
 defined("SupportEmail") ? null : define("SupportEmail","example@any.com");
 
 //--------------  Connection
-defined("Connection") ? null : define("Connection",mysqli_connect(DB_HOST , DB_USER , DB_PASS , DB_NAME));
+$connection = mysqli_connect(DB_HOST , DB_USER , DB_PASS , DB_NAME);
 require_once("functions.php");
 require_once("genrate_email.php");
