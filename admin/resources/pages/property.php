@@ -1,10 +1,10 @@
 <div class="content">
-    <div id="all-properties" >
+    <div id="all-properties"  style="display:none" >
         <div class="row">
             <div class="col-lg-12">
                 <div class="card pb-2">
                     <div class="card-header">
-                        <h3 class="p-0 m-0">All Properties |<span class="card-title text-primary"> 763,215</span> <span class="float-right"><button type="button" class="btn-sm btn-success" id="add-property-trigger">Add</button></span></h3>
+                        <h3 class="p-0 m-0">All Properties |<span class="card-title text-primary"> 763,215</span> <span class="float-right"><a href="#" class="btn-sm btn-primary" id="add-property-trigger">Add</a></span></h3>
                     </div>
                     <div class="card-boady p-4">
                         <div class="table-responsive">
@@ -24,7 +24,7 @@
                                         <td>1</td>
                                         <td>#jds343</td>
                                         <td>Property 01</td>
-                                        <td><button class="btn-sm btn-success m-1">View on map</button></td>
+                                        <td><a href="#" class="btn-sm btn-success m-1">View on map</a></td>
                                         <td><span class="text-success" style="cursor:pointer">View Description</span></td>
                                         <td>
                                             <a href="#" class="btn-sm btn-danger m-1">Delete</a>
@@ -40,12 +40,12 @@
             </div>
         </div>
     </div>
-    <div id="add-property"  style="display:none">
+    <div id="add-property">
         <div class="row">
             <div class="col-lg-12">
                 <div class="card pb-2">
                     <div class="card-header">
-                        <h3 class="p-0 m-0">Add Property <span class="float-right"><button type="button" class="btn-sm btn-success" id="show-properties-div">View All</button></span></h3>
+                        <h3 class="p-0 m-0">Add Property <span class="float-right"><a href="#" class="btn-sm btn-primary" id="show-properties-div">View All</a></span></h3>
                     </div>
                     <div class="card-boady p-4">
                         <div class="form-outer">
@@ -118,7 +118,7 @@
                                             </div>
                                             <div class="step-div step-1">
                                                 <div class="row">
-                                                    <div class="col-12 mt-2 mb-2"><button type="button" class="btn-sm btn-success">Open Map</button></div>
+                                                    <div class="col-12 mt-2 mb-2"><a href="#" class="btn-sm btn-info">Open Map</a></div>
                                                     <div class="col-6">
                                                         <div class="form-group">
                                                             <input type="text" class="form-control" placeholder="Street" disabled>
@@ -142,9 +142,15 @@
                                                     <div class="col-12">
                                                         <textarea name="" id="" cols="30" rows="15" class="form-control" placeholder="Address" disabled></textarea>
                                                     </div>
-                                                    <div class="col-12 mt-4">
-                                                        <button class="btn btn-success w-100">Add Property</button>
-                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="form-heading mt-2">
+                                                <h5>Near By Places</h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <button class="btn btn-success w-100">Add Property</button>
                                                 </div>
                                             </div>
                                         </div>
